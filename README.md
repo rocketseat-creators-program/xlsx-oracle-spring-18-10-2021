@@ -12,7 +12,7 @@
 ```shell
     docker pull store/oracle/database-enterprise:12.2.0.1 
 ```
-1. Comando para rodar a imagem docker que realizamos o download, a senha padrão é `Oradoc_db1``.
+1. Comando para rodar a imagem docker que realizamos o download, a senha padrão é `Oradoc_db1`.
 ```shell
   docker run -d -it --name epxert_club \
                     -p 1521:1521 -p 5500:5500 \
