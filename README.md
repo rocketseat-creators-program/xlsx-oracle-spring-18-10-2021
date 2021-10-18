@@ -1,6 +1,6 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-## Pega essa visão: Oracle gerando xlsx e spring consumindo!
+## Oracle gerando xlsx e spring consumindo!
 
 ### Configuração do oracle
 * Realize o login do docker:
