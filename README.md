@@ -1,6 +1,15 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-## Oracle gerando xlsx e spring consumindo!
+## Gerando arquivo xlsx com Oracle e consumindo com Spring
+
+Utilizadno o banco de dados Oracle para gerar uma planilha excel através de uma função específica, liberando o back-end para continuar com o processamento necessário reduzindo assim o gargalo da operação. 
+
+### Ambiente Utilizado
+* Java JDK 16
+* Spring 2.4.11
+* Oracle 12c
+* Docker
+* IntelliJ (IDE)
 
 ### Configuração do oracle
 * Realize o login do docker:
@@ -43,7 +52,18 @@ processors=2 # Makes the WSL 2 VM use two virtual processors
 
 ### Diretório do Projeto
 
+```sh
+.
+├── script/       # script que contém o SQL necessário para rodar o projeto
+├── src/          # armazena código para consumo do spring
+├── .gitignore    # arquivos que são desconsiderados pelo git
+├── pom.xml       # dependências do projeto
+└── README.md
+```
 
 
+## Expert
 
-
+| [<img src="https://avatars.githubusercontent.com/u/1785791?s=400&u=cf86c9ae2216765f948ca2136eda7e632e0cd922&v=4" width="75px;"/>](https://github.com/gustavodsf) |
+| :-: |
+|[Gustavo Figueiredo](https://github.com/gustavodsf)|
